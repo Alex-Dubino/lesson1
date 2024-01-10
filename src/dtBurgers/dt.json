@@ -1,0 +1,73 @@
+{
+    "activeBurgers": [
+      {
+        "img": "./burgerCards1.png ",
+        "price": "689₽",
+        "title": "Мясная бомба",
+        "massa": "520г",
+        "confCost": "689",
+        "id": "1"
+      },
+      {
+        "img": "./burgerCards2.png ",
+        "price": "550₽",
+        "title": "Супер сырный",
+        "massa": "512г",
+        "confCost": "550",
+        "id": "2"
+      },
+      {
+        "img": "./burgerCards3.png ",
+        "price": "639₽",
+        "title": "Сытный",
+        "massa": "580г",
+        "confCost": "639",
+        "id": "3"
+      }
+    ],
+    "allBurgers": [
+      {
+        "img": "./burgerCards1.png ",
+        "price": "689₽",
+        "title": "Мясная бомба",
+        "massa": "520г",
+        "id": "1"
+      },
+      {
+        "img": "./burgerCards2.png ",
+        "price": "550₽",
+        "title": "Супер сырный",
+        "massa": "512г",
+        "id": "2"
+      },
+      {
+        "img": "./burgerCards3.png ",
+        "price": "639₽",
+        "title": "Сытный",
+        "massa": "580г",
+        "id": "3"
+      },
+      {
+        "img": "./burgerCards4.png ",
+        "price": "480₽",
+        "title": "Тяжелый удар",
+        "massa": "470г",
+        "id": "4"
+      },
+      {
+        "img": "./burgerCards5.png ",
+        "price": "450₽",
+        "title": "Вечная классика",
+        "massa": "450г",
+        "id": "5"
+      },
+      {
+        "img": "./burgerCards6.png ",
+        "price": "560₽",
+        "title": "Итальянский",
+        "massa": "510г",
+        "id": "6"
+      }
+    ]
+  }
+  

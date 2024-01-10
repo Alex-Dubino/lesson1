@@ -1,0 +1,149 @@
+.cont__activeBurgers {
+  width: 300px;
+  height: auto;
+  padding: 24px 16px;
+  .container_basket {
+    .container_head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(242, 242, 243, 1);
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+      }
+      h2 {
+        border-radius: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 72px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .container_footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(242, 242, 243, 1);
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+      }
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .conteiner_main {
+      div {
+        display: flex;
+        flex-direction: column;
+        .container_card {
+          padding: 16px 0;
+          .container_card-wrap {
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #fff;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+
+            .wr-content {
+              display: flex;
+              column-gap: 20px;
+              align-items: center;
+              flex-direction: row;
+              .wr-img {
+                width: 64px;
+                height: 52px;
+                border-radius: 8px;
+                img {
+                  width: 64px;
+                  height: 52px;
+                  object-fit: contain;
+                }
+              }
+            }
+            .title {
+              h3 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0em;
+              }
+            }
+            .massa {
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 16px;
+              letter-spacing: 0em;
+              color: rgba(177, 177, 177, 1);
+            }
+            .price {
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 16px;
+              letter-spacing: 0em;
+              margin-top: 6px;
+            }
+            .wt_button {
+              display: flex;
+              align-items: center;
+              column-gap: 20px;
+              background-color: #f2f2f3;
+              border-radius: 12px;
+              padding: 10px 20px;
+              span {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+              }
+              button {
+                background: transparent;
+                border: none;
+                overflow: hidden;
+                cursor: pointer;
+                width: 30px;
+                height: 40px;
+                font-size: 20px;
+              }
+            }
+            .wt_button{
+              display: flex;
+              align-items: center;
+              flex-direction: row;
+              column-gap: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
